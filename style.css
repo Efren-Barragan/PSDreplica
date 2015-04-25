@@ -1,0 +1,192 @@
+
+/*This is your navigation bar*/
+.mynav  {
+	background: -webkit-linear-gradient(#FFF701 90%, #6B6B6B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFF701 90%, #6B6B6B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFF701 90%, #6B6B6B); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFF701 90%, #6B6B6B); /* Standard syntax (must be last) */
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	height:1%;
+    padding: 40px;
+
+}
+	body { padding-top: 70px; }	
+.row.mynav {
+	height:0px;
+}
+ul {text-decoration: none;
+	margin:0;
+	margin-right: 17%;
+	 
+}
+
+a {
+	color: black;
+}
+
+.navlinks {
+	float:right;
+}
+.pictures {
+	
+	display:block;
+	width: 100%;
+	margin:0 auto;
+	background-color: #E6E6E6;
+	text-align: center;
+	height:400px;
+}
+
+#leftarrow {
+	vertical-align:1200%;
+}
+
+#rightarrow {
+	vertical-align:1200%;
+}
+
+li {
+	display: inline-block;
+    color:black;
+    margin:10;
+    padding:0;
+   
+    text-align:center;
+}
+nav li {
+	list-style-type: none;
+	text-decoration:none;
+	position: relative;
+	padding-top: 20px;
+	padding: 5px;
+}
+
+nav li a {padding-top: 10px;
+			
+			}
+
+/*All of your different divs or sections*/
+}
+.grey {
+	background-color: #E6E6E6;
+	margin: 0;
+	padding: 50px;
+	height:150px;
+	width: 100%;
+	
+}
+.moregrey {
+	background-color: #6B6B6B;
+	margin: 0;
+	padding: 50px;
+	height: 250px;
+	width:100%;
+	border-top: 1px solid black;
+	
+}
+.moregrey 
+.lightgrey {
+	background-color:#F1F1F1;
+	 
+	height:500px;
+	
+	width:100%;
+}
+.greyblack {
+	background-color:#1F1F1F;
+	height:200px;
+	
+	width:100%;
+}
+.moregrey2 {
+	background-color:#6B6B6B;
+	height:200px;
+	
+	width:100%;
+/*these are my columns*/
+
+}
+
+.text-columns {
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+    -webkit-column-gap: 10px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 10px; /* Firefox */
+    column-gap: 10px;
+    -webkit-column-width: 50px; /* Chrome, Safari, Opera */
+    -moz-column-width: 50px; /* Firefox */
+    column-width: 50px;
+
+}
+.text-columns {
+	display:inline-block;
+}
+.text-columns h1 {
+	color:yellow;
+	font-size:20px;
+	text-align:center;
+	font-weight:bold;
+
+}
+aside {
+		width:350px;
+		height:35px;
+		background-color:black;
+		color:#FFF701;
+		text-align: center;
+		margin-right: 450px;
+		border-radius:10px;
+		float:right;
+		position:relative;
+		bottom:24px;
+		padding-top:8px;
+		margin-top:10px;
+}
+.text-columns1 {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 50px; /* Firefox */
+    column-gap: 50px;
+    -webkit-column-width: 30px; /* Chrome, Safari, Opera */
+    -moz-column-width: 30px; /* Firefox */
+    height:500px;
+    position:relative;
+    padding-top:30px;
+    width:1000px;
+    padding-left:160px;
+    clear:both;
+    display:inline-block;
+    
+}
+.text-columns1 h1 {
+	font-size:25px;
+	font-weight:bold;
+	
+}
+
+.text-column1, .redheadings {
+	color:#B80000;
+	display:inline-block;
+	font-size:11px;
+
+}
+.redheadings h1 {
+	font-size:25px;
+	text-align: center;
+	color:black;
+}
+.ourcompany {
+	float:left;
+}
+.ourtestimonials {
+	 display:inherit;
+
+}
+.redheadings p {
+	color:black;
+	font-size:14px;
+}
